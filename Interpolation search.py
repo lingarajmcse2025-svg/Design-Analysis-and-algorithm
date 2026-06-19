@@ -73,7 +73,7 @@ def performance_analysis():
 
 # --- Main ---
 arr = [2, 5, 10, 15, 23, 35, 48, 60, 75, 90, 105, 120]
-target = 35
+target = 48
 idx, comps = interpolation_search(arr, target)
 print(f"Array: {arr}")
 print(f"Searching for: {target}")
